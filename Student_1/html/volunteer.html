@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Information for Character Encoding and Viewport Setup -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the Page -->
+    <title>Volunteer - Life Below Water</title>
+    <!-- Link to External CSS Files -->
+    <link rel="stylesheet" href="../css/volunteer.css"> <!-- Link to external CSS -->
+    <link rel="stylesheet" href="../css/global.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <!-- LOGO -->
+            <a href="index.html" class="logo">
+                <img src="../images/DeepBlueWonders.png" alt="Life Below Water Logo">
+            </a>
+
+            <!-- MAIN NAV LINKS -->
+            <ul class="nav-links">
+                <!-- Home link -->
+                <li><a href="index.html" class="active">Home</a></li>
+                
+                <!-- Volunteer (Dropdown) link -->
+                <li class="dropdown">
+                    <a href="../html/volunteer.html">Volunteer</a>
+                    <ul class="dropdown-content">
+                        <!-- Volunteer Subpages -->
+                        <li><a href="sign-up.html">Sign Up</a></li>
+                        <li><a href="upcoming-event.html">Upcoming Event</a></li>
+                        <li><a href="ongoing-event.html">Ongoing Event</a></li>
+                    </ul>
+                </li>
+
+                <!-- Feedback -->
+                <li><a href="feedback.html">Feedback</a></li>
+
+                <!-- Table -->
+                <li><a href="tables.html">Table</a></li>
+
+                <!-- Profile -->
+                <li><a href="profile.html">Profile</a></li>
+
+                <!-- Sitemap -->
+                <li><a href="sitemap.html">Sitemap</a></li>
+
+                <!-- Content (Dropdown) link -->
+                <li class="dropdown">
+                    <a href="content.html">Content</a>
+                    <ul class="dropdown-content">
+                        <!-- Content Subpages -->
+                        <li><a href="../html/content.html">Content 1</a></li>
+                        <li><a href="content2.html">Content 2</a></li>
+                        <li><a href="content3.html">Content 3</a></li>
+                        <li><a href="content4.html">Content 4</a></li>
+                    </ul>
+                </li>
+
+                <!-- Team -->
+                <li><a href="team.html">Team</a></li>
+
+                <!-- Student (Dropdown) -->
+                <li class="dropdown">
+                    <a href="student.html">Student</a>
+                    <ul class="dropdown-content">
+                        <!-- Student Subpages -->
+                        <li><a href="student1.html">Student 1</a></li>
+                        <li><a href="index.html">Student 2</a></li>
+                        <li><a href="student3.html">Student 3</a></li>
+                        <li><a href="student4.html">Student 4</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!-- SEARCH BAR -->
+            <form class="search-bar" action="/search" method="get">
+                <input type="text" name="q" placeholder="Search...">
+                <button type="submit">Search</button>
+            </form>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+     <!-- Main container div that holds all the content -->
+    <div class="container">
+        <h2>Volunteer Opportunities</h2>
+        <!-- Scrollable section containing volunteer opportunity cards -->
+        <div class="scrollable-section">
+            <div class="card">
+                <img src="../images/beachcleanups.png" alt="Program 1">
+                <h3>Beach Cleanup</h3>
+                <p>Join us in cleaning up our beaches to protect marine life.</p>
+                <button class="button">Learn More</button>
+            </div>
+            <div class="card">
+                <img src="../images/endangered.png" alt="Program 2">
+                <h3>Marine Conservation</h3>
+                <p>Help track and protect endangered marine species.</p>
+                <button class="button">Learn More</button>
+            </div>
+            <div class="card">
+                <img src="../images/biodiversity.jpeg.jpg" alt="Program 3">
+                <h3>Coral Reef Restoration</h3>
+                <p>Assist in planting and restoring coral reefs.</p>
+                <button class="button">Learn More</button>
+            </div>
+            <div class="card">
+                <img src="../images/kidsconservation.png" alt="Program 4">
+                <h3>Eco-Education</h3>
+                <p>Teach kids about ocean conservation.</p>
+                <button class="button">Learn More</button>
+            </div>
+        </div>
+        <!-- Section for User Reviews -->
+        <div class="reviews">
+            <h2>User Reviews</h2>
+            <p>9.4/10 Exceptional (120 Reviews)</p>
+            <!-- Review Cards -->
+            <div class="review-card">
+                <h4>"Amazing Experience!"</h4>
+                <p>Had an incredible time helping with marine conservation. Highly recommend! <a href="#">See More</a></p>
+                <p><strong>- Alex, Feb 2025</strong></p>
+            </div>
+            <div class="review-card">
+                <h4>"Very Rewarding!"</h4>
+                <p>Helping to clean the beaches made me feel great. <a href="#">See More</a></p>
+                <p><strong>- Jamie, Jan 2025</strong></p>
+            </div>
+        </div>
+        <!-- Feedback Submission Form -->
+        <div class="feedback-form">
+            <h2>Submit Your Feedback</h2>
+            <!-- Text Area for User Feedback -->
+            <textarea placeholder="Write your review here..."></textarea>
+            <!-- Emoji Rating Section -->
+            <div class="rating">
+                <span class="emoji">😞</span>
+                <span class="emoji">😐</span>
+                <span class="emoji">🙂</span>
+                <span class="emoji">😊</span>
+                <span class="emoji">😍</span>
+            </div>
+            <!-- Buttons to Submit or Cancel Feedback -->
+            <button class="button">Submit Feedback</button>
+            <button class="button" style="background-color: grey;">Cancel</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <!-- Footer Text and Credits -->
+        <p>© 2025 Life Below Water. All rights reserved.</p>
+        <p>Created by student 1 | <a href="../html/pgeditor.html">Visit - Page Editor</a></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    color: #333;
+}
+
+/* Main Content */
+/* Basic Reset (Optional) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+  }
+
+/* LOGO */
+.navbar .logo img {
+    height: 100px;
+    width: auto;
+}
+
+/* NAV LINKS LIST */
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex: 1; /* Takes up remaining space so search bar can align right */
+    justify-content: flex-end;
+}
+
+/* NAV LINKS - MAIN ITEMS */
+.nav-links > li {
+    position: relative; /* Needed for dropdown positioning */
+}
+
+/* NAV LINKS - ANCHORS */
+.nav-links a {
+    display: block;
+    padding: 14px 16px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* HOVER STATE ON MAIN NAV */
+.nav-links a:hover {
+    background-color: darkblue;
+}
+
+/* ACTIVE LINK STYLING */
+.nav-links a.active {
+    background-color: darkblue;
+}
+
+/* DROPDOWN */
+.dropdown-content {
+    display: none; /* Hidden by default */
+    position: absolute;
+    background-color: darkblue;
+    min-width: 150px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    margin-top: 2px;
+    z-index: 99; /* Ensure dropdown is above other elements */
+    list-style: none;
+    padding: 0;
+}
+
+/* DROPDOWN LINKS */
+.dropdown-content li a {
+    padding: 10px 16px;
+    color: #fff;
+    white-space: nowrap;
+}
+
+/* SHOW DROPDOWN ON HOVER */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* SEARCH BAR */
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.search-bar input[type=\"text\"] {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 6px 10px;
+    background-color: darkblue;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #081c15;
+}
+
+
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color:darkblue;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}

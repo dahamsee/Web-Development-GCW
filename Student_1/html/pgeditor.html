@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Editor Dahamsee</title>
+    <link rel="stylesheet" href="../css/pgeditor.css"> <!-- External CSS link -->
+</head>
+<body>
+    <header id="top">
+        
+            
+                <nav class="navbar">
+                    <!-- LOGO -->
+                    <a href="index.html" class="logo">
+                        <img src="../images/DeepBlueWonders.png" alt="Life Below Water Logo">
+                    </a>
+        
+                    <!-- MAIN NAV LINKS -->
+                    <ul class="nav-links">
+                        <!-- Home -->
+                        <li><a href="index.html" class="active">Home</a></li>
+                        
+                        <!-- Volunteer (Dropdown) -->
+                        <li class="dropdown">
+                            <a href="../html/volunteer.html">Volunteer</a>
+                            <ul class="dropdown-content">
+                                <li><a href="sign-up.html">Sign Up</a></li>
+                                <li><a href="upcoming-event.html">Upcoming Event</a></li>
+                                <li><a href="ongoing-event.html">Ongoing Event</a></li>
+                            </ul>
+                        </li>
+            
+                        <!-- Feedback -->
+                        <li><a href="feedback.html">Feedback</a></li>
+            
+                        <!-- Table -->
+                        <li><a href="tables.html">Table</a></li>
+            
+                        <!-- Profile -->
+                        <li><a href="profile.html">Profile</a></li>
+            
+                        <!-- Sitemap -->
+                        <li><a href="sitemap.html">Sitemap</a></li>
+            
+                        <!-- Content (Dropdown) -->
+                        <li class="dropdown">
+                            <a href="../html/content.html">Content</a>
+                            <ul class="dropdown-content">
+                                <li><a href="../html/content.html">Content 1</a></li>
+                                <li><a href="content2.html">Content 2</a></li>
+                                <li><a href="content3.html">Content 3</a></li>
+                                <li><a href="content4.html">Content 4</a></li>
+                            </ul>
+                        </li>
+            
+                        <!-- Team -->
+                        <li><a href="team.html">Team</a></li>
+            
+                        <!-- Student (Dropdown) -->
+                        <li class="dropdown">
+                            <a href="student.html">Student</a>
+                            <ul class="dropdown-content">
+                                <li><a href="student1.html">Student 1</a></li>
+                                <li><a href="index.html">Student 2</a></li>
+                                <li><a href="student3.html">Student 3</a></li>
+                                <li><a href="student4.html">Student 4</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+            
+                    <!-- SEARCH BAR -->
+                    <form class="search-bar" action="/search" method="get">
+                        <input type="text" name="q" placeholder="Search...">
+                        <button type="submit">Search</button>
+                    </form>
+                </nav>
+            
+        
+    
+    </header>
+    <section class="stud">
+        <h2>Dahamsee Tharundya, Student 1</h2>
+    </section>
+
+    <div class="container">
+        <!-- Main content area -->
+        <main>
+            <section>
+                <h2 id="splash">Splash Page</h2>
+                <h3>Technical Description</h3>
+                <p>The HTML and CSS techniques used in this page are designed to create a visually appealing and functional splash screen that redirects users after a brief delay. The HTML structure is centered around a "div" container that holds the content, including headings ("h1", "h2", "h3"), a paragraph ("p"), and an unordered list ("ul") with list items ("li"). The "meta" tag with http-equiv="refresh" ensures the page automatically redirects to home.html after 5 seconds, enhancing user experience by guiding them to the main content. The CSS styles the page to be fullscreen using height: 100vh and centers the content with display: flex, align-items: center, and justify-content: center. The background image is set to cover the entire screen using background-size: cover and background-position: center, creating an immersive visual effect. The text is bolded with font-weight: bold for emphasis, and the "div" has a semi-transparent dark blue background (rgba(0, 0, 255, 0.6)) with padding and rounded corners (border-radius: 10px) to make the content stand out against the background image. The no-bullets class removes bullet points from the list, ensuring a clean design. Overall, the combination of HTML and CSS creates a cohesive, user-friendly splash screen that effectively communicates the page's purpose while maintaining a professional aesthetic.</p>
+                
+                <h3>Accessibility</h3>
+                <p>In implementing this splash screen, I addressed accessibility by ensuring the content is clear and easy to read for all users. The use of high-contrast colors, such as dark blue background with bold white text, improves readability for users with visual impairments. The font-weight: bold property ensures the text stands out, while the background-size: cover and background-position: center properties ensure the background image does not interfere with text visibility. Additionally, the use of semantic HTML tags like "h1", "h2", and "p" helps screen readers interpret the content structure, making it easier for users with disabilities to navigate. The auto-redirect feature, implemented with the "meta" tag, is complemented by a visible "Loading... Please wait" message, ensuring users are aware of the page's behavior. These design choices collectively enhance accessibility, making the page inclusive for a wider audience.</p>
+                
+                <h3>Link to the validation page</h3>
+                <p><a href="../html/validation.html">validation page</a>, use the marker to jump to the corresponding section of the validation page.</p>
+                
+                <h3>Link to the page</h3>
+                <p><a href="../html/splash.html">Go to splash screen</a></p>
+            </section>
+
+            <section>
+                <h2 id="volunteer">Volunteer Page</h2>
+                <h3>Technical Description</h3>
+                <p>The HTML and CSS techniques used in this page are designed to create an interactive and visually appealing volunteer opportunities page. The HTML structure is organized using a "div" container to hold the content, with sections for volunteer programs, user reviews, and feedback. Each volunteer program is displayed in a card format using "div class="card"", which includes an image ("img"), a heading ("h3"), a paragraph ("p"), and a button ("button"). The scrollable-section class uses display: flex and overflow-x: auto to create a horizontally scrollable section, making it easy for users to browse through multiple programs. The CSS ensures a clean layout with padding, margin, and border-radius for rounded corners, while the background-color properties provide a consistent color scheme. The button class includes a hover effect (:hover) to enhance interactivity. The reviews section uses review-card to display user feedback in a structured format, and the feedback form includes a textarea for user input and emoji ratings for quick feedback. The footer ("div class="footer") provides a link to the student editor page, styled with a contrasting background color for visibility. Overall, the combination of semantic HTML tags and CSS properties ensures a user-friendly, responsive, and visually cohesive design.</p>
+                
+                <h3>Accessibility</h3>
+                <p>In implementing this volunteer opportunities page, I addressed accessibility by ensuring the content is clear, navigable, and usable for all users. I used semantic HTML tags like "h2", "h3", and "p" to structure the content, making it easier for screen readers to interpret and navigate. The images include descriptive alt attributes, providing context for users who rely on screen readers or have images disabled. The scrollable section for volunteer programs is designed with overflow-x: auto, allowing users to scroll horizontally if they cannot use a mouse, and the buttons are large and clickable, ensuring they are easy to interact with. The feedback form includes a textarea for user input and emoji ratings, which are visually distinct and labeled for clarity. Additionally, the color scheme uses high-contrast colors, such as white text on a dark blue background in the footer, to improve readability for users with visual impairments. These design choices ensure the page is inclusive and accessible to a wide range of users.</p>
+                
+                <h3>Link to the validation page</h3>
+                <p><a href="../html/validation.html">validation page</a>, use the marker to jump to the corresponding section of the validation page.</p>
+                
+                <h3>Link to the page</h3>
+                <p><a href="../html/volunteer.html">Go to volunteer page</a></p>
+            </section>
+
+            <section>
+                <h2 id="content">Content Page</h2>
+                <h3>Technical Description</h3>
+                <p>The HTML and CSS techniques used in this page are designed to create a structured, informative, and visually appealing layout for marine conservation content. The HTML uses semantic tags like "header", "section", and "footer" to organize the content logically, making it easier for screen readers and search engines to understand. The "nav" element with a sidebar class provides a fixed navigation menu on the left, allowing users to quickly jump to different sections using anchor links ("a href="#section-id""). The CSS ensures a clean and responsive design, with the sidebar styled to be fixed and full-height, using position: fixed and height: 100%, while the main content ("div class="content"") is offset with margin-left to avoid overlap. Images are made responsive with max-width: 100% and height: auto, ensuring they scale properly on different devices. The box-shadow and border-radius properties add subtle visual enhancements, making sections and images stand out. The top-button class creates a fixed "Go to Top" button at the bottom-right corner, improving navigation for long pages. Overall, the combination of semantic HTML and thoughtful CSS ensures a user-friendly, accessible, and visually cohesive design that effectively communicates marine conservation efforts.</p>
+                
+                <h3>Accessibility</h3>
+                <p>In implementing this marine conservation page, I addressed accessibility by ensuring the content is clear, navigable, and usable for all users. I used semantic HTML tags like "header", "section", and "footer" to structure the content, making it easier for screen readers to interpret and navigate. The sidebar navigation includes anchor links ("a href="#section-id"") that allow users to jump directly to specific sections, improving usability for keyboard and screen reader users. Images have descriptive alt attributes, providing context for users who rely on screen readers or have images disabled. The responsive design, achieved with max-width: 100% and height: auto, ensures the page is accessible on various devices, including mobile and tablets. The "Go to Top" button, styled with position: fixed, provides an easy way for users to return to the top of the page without excessive scrolling. Additionally, the color scheme uses high-contrast colors, such as dark text on a light background, to improve readability for users with visual impairments. These design choices ensure the page is inclusive and accessible to a wide range of users.</p>
+                
+                <h3>Link to the validation page</h3>
+                <p><a href="../html/validation.html">validation page</a>, use the marker to jump to the corresponding section of the validation page.</p>
+                
+                <h3>Link to the page</h3>
+                <p><a href="../html/content.html">Go to content Page</a></p>
+            </section>
+
+            <section>
+                <h2 id="challenge">Challenges and Lessons Learned</h2>
+                <p>During the implementation of the marine conservation page, I faced several challenges, such as ensuring the sidebar remained fixed without overlapping content and making images responsive across different screen sizes. To resolve the sidebar issue, I used position: fixed and adjusted the margin-left of the main content, which maintained a clean layout. For the images, I applied max-width: 100% and height: auto to ensure they scaled properly without distortion. Another challenge was positioning the "Go to Top" button effectively, which I fixed by using position: fixed and fine-tuning its placement. These challenges taught me the importance of testing on multiple devices and using CSS properties like position and max-width creatively. Overcoming these issues improved my problem-solving skills and deepened my understanding of responsive design, which will be invaluable for future projects.</p>
+            </section>
+
+            <section>
+                <h2 id="compliance">Compliance</h2>
+                <p>The pages I created aim to comply with Janet regulations by focusing on accessibility, usability, and security. I used semantic HTML tags like "header" and "section" to improve screen reader navigation, added descriptive alt attributes to images, and ensured high-contrast color schemes for better readability. For usability, I implemented responsive design techniques, such as max-width: 100% for images, and tested the pages across devices to ensure functionality. While the pages are static and do not handle sensitive data, I recognize that adding features like forms would require HTTPS and input validation to meet security standards. Although I made significant efforts to comply, I acknowledge areas for improvement, such as adding ARIA labels and conducting user testing for accessibility. This experience taught me the importance of adhering to web standards and the need for continuous improvement to ensure full compliance.</p>
+            </section>
+
+            <section>
+                <h2 id="ref">References</h2>
+                <ul class="ref">
+                    <li>Youtube <a href="https://www.youtube.com/watch?v=2IV08sP9m3U" target="_blank">https://www.youtube.com/watch?v=2IV08sP9m3U</a> (Last accessed: 16 Feb 2025)</li>
+                    <li>W3Schools (2025). <i>W3Schools.</i> Available at: <a href="https://www.w3schools.com/">https://www.w3schools.com/</a> (Last accessed: 11 March 2025).</li>
+                </ul>
+                <div><a href="../Document/WebReport.docx" target="_blank" class="btn" >Download ⬇</a></div>
+            </section>
+
+            <p class="top"><a href="#top">Go top</a></p>
+        </main>
+
+        <!-- Sidebar area -->
+        <aside>
+            <h3>Core pages developed:</h3>
+             <ul class="top-level-ul">
+                <li>
+                    Student 1</li>
+                <ul>
+                    <li><a href="#splash">Splash page</a></li>
+                    <li><a href="#volunteer">Volunteer page</a></li>
+                    <li><a href="#content">Content page</a></li>
+                </ul>
+                <li><a href="#challenge">Challenges and Lessons Learned</a></li>
+                <li><a href="#compliance">Compliance</a></li>
+                <li><a href="#ref">References</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    
+        
+            <footer>
+                <p>© 2025 Life Below Water. All rights reserved.</p>
+                <p>Created by student 1 | <a href="../html/pgeditor.html">Visit - Page Editor</a></p>
+            </footer>
+        
+    
+</body>
+</html>
