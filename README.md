@@ -1,2 +1,3 @@
-# Web Development GCW
-An interactive website built using HTML and CSS for the 1st year Module Web Design & Development.
+# Web Design & Development
+Life Below Water
+An interactiive website built using HTML and Csss
